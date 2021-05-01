@@ -1,0 +1,62 @@
+body {
+  background-color: #263238;
+}
+
+.main {
+  height: 80vh;
+  width: 100%;
+}
+
+h1 {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+table {
+  height: 80vh; /* 表の高さ */
+  width: calc(80vh * 0.5); /* 表の幅 */
+  /* 中央揃えにする */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  width: 10%; /* セルの幅 */
+  height: 5%; /* セルの高さ */
+  background-color: #455A64; /* 背景色 */
+}
+
+.i {
+  background-color: #00BCD4; /* cyan */
+}
+
+.o {
+  background-color: #FFEB3B; /* yellow */
+}
+
+.t {
+  background-color: #9C27B0; /* purple */
+}
+
+.s {
+  background-color: #4CAF50; /* green */
+}
+
+.z {
+  background-color: #F44336; /* red */
+}
+
+.j {
+  background-color: #2196F3; /* blue */
+}
+
+.l {
+  background-color: #FF9800; /* orange */
+}
