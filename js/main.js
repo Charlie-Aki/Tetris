@@ -262,6 +262,20 @@ function moveRight() {
 
 // function rotate () {
 //   /* ブロックを回転 */
+//   let col_new = 0;
+//   let row_new = 0;
+//   for (let row = 19; row >= 0; row--) {
+//     for (let col = 0; col < 10; col++) {
+//       if (cells[row][col].blockNum === fallingBlockNum) {
+//         col_new = col - row;
+//         row_new = row + col;//1 - (row - (blocks[cells[row][col].className].pattern[0].length - 2));
+//         cells[row_new][col_new].className = cells[row][col].className;
+//         cells[row_new][col_new].blockNum = cells[row][col].blockNum;
+//         cells[row][col].className = '';
+//         cells[row][col].blockNum = null;
+//       }
+//     }
+//   }
 // }
 
 function dropFast () {
